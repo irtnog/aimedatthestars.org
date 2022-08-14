@@ -2,7 +2,6 @@ title: Aimed At The Stars
 email: gtbUncleMattMan@AimedAtTheStars.org
 description: |-
   Website for Elite: Dangerous Squadron/Player Minor Faction "Aimed At The Stars" (ID: STGR)
-twitter_username: https://twitter.com/sternegerichtet
 repository: irtnog/stgr-website
 plugins:
   - jekyll-feed
