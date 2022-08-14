@@ -1,0 +1,7 @@
+ol.ordinal > li {
+    list-style-type: decimal;
+}
+
+ul.cardinal > li {
+    list-style-type: '- ';
+}
