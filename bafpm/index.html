@@ -1,0 +1,176 @@
+---
+layout: default
+---
+
+<header class="jumbotron masthead" id="overview">
+  <div class="container">
+    <h1>Big Angular Flight Picture Mode</h1>
+
+    <p class="lead"><em>Big Angular Flight Picture Mode</em> is a modified version of <a href="https://www.reddit.com/r/EliteDangerous/comments/e618ml/steam_controller_elite_detailed_configuration_a/">Mr. Angular Velocity's Steam Controller bindings for Elite: Dangerous</a> that better supports FA-off and Odyssey.</p>
+  </div>
+</header>
+
+<div class="container">
+
+  <!-- page nav -->
+  <div class="row">
+    <div class="span3 bs-docs-sidebar">
+      <ul class="nav nav-list bs-docs-sidenav">
+        <li><a    href="#installation"><i class="icon-chevron-right"></i> Installation</a></li>
+        <li><a href="#device-mappings"><i class="icon-chevron-right"></i> Device mappings</a></li>
+        <li><a    href="#basic-flight"><i class="icon-chevron-right"></i> Basic Flight</a></li>
+        <li><a href="#advanced-flight"><i class="icon-chevron-right"></i> Advanced Flight</a></li>
+        <li><a href="#user-interfaces"><i class="icon-chevron-right"></i> User Interfaces</a></li>
+        <li><a href="#camera-controls"><i class="icon-chevron-right"></i> Camera Controls</a></li>
+        <li><a       href="#multicrew"><i class="icon-chevron-right"></i> Multicrew</a></li>
+        <li><a         href="#driving"><i class="icon-chevron-right"></i> Driving</a></li>
+        <li><a         href="#on-foot"><i class="icon-chevron-right"></i> On Foot</a></li>
+        <li><a              href="#vr"><i class="icon-chevron-right"></i> Virtual Reality</a></li>
+      </ul>
+      <p>&nbsp;</p>
+      <p><a href="https://docs.google.com/spreadsheets/d/1Kq_-igWF8gBGCXUd-xO4WzAUgmmJgPT9XFkpKyXXNZw/" class="btn btn-large" target="_blank">Open Reference Card</a></p>
+    </div>
+
+    <div class="span9">
+
+      <section id="installation">
+        <div class="page-header">
+          <h1>Installation</h1>
+        </div>
+        <ol class="ordinal">
+          <li>Download the bindings that match your version of Elite: Dangerous.  You can download one or both of the bindings.</li>
+        </ol>
+        <div class="row-fluid">
+          <div class="span6">
+            <h2><a class="btn btn-large btn-primary" href="Big Angular Flight Picture Mode.4.0.binds">Download Odyssey (4.0) Bindings</a></h2>
+            <p><strong>The complete set of controls:</strong> These bindings let you fly, drive, walk, and chat, all from the comfort of your couch.</p>
+          </div>
+          <div class="span6">
+            <h2><a class="btn btn-large btn-primary" href="Big Angular Flight Picture Mode.3.0.binds">Download Horizons (3.0) Bindings</a></h2>
+            <p>These bindings are compatible with Horizons and the base game.  They are identical to the Odyssey bindings except for the on-foot controls.</p>
+          </div>
+        </div>
+        <ol start="2" class="ordinal">
+          <li>Open <code>%LOCALAPPDATA%\Frontier Developments\Elite Dangerous\Options\Bindings</code> in Windows Explorer, and copy the bindings files into that folder.</li>
+          <li>Start Elite: Dangerous and open the following Steam URI in Windows Explorer: <code>steam://controllerconfig/359320/2828850007</code></li>
+          <li>Select the <strong>Big Angular Flight Picture Mode</strong> controller configuration via the Steam overlay.</li>
+          <li>In the game's <strong>Controls</strong> menu, switch to the <strong>Big Angular Flight Picture Mode</strong> bindings.</li>
+        </ol>
+      </section>
+
+      <section id="device-mappings">
+        <div class="page-header">
+          <h1>Device Mappings</h1>
+        </div>
+        <p class="lead">The Steam Controller combines the behavior of an Xbox 360 controller, a mouse, and a keyboard.</p>
+        <p>The following mappings are in use:</p>
+        <ul class="cardinal">
+          <li>The <u>analog joystick</u> emulates a clickable <u>left stick</u>.</li>
+          <li>The <u>left trackpad</u> acts like a 4-way <u>direction pad</u> (<u>Up</u>/<u>Down</u>/<u>Left</u>/<u>Right</u>).</li>
+          <li>The <u>right trackpad</u> emulates a clickable <u>right stick</u>.</li>
+          <li>Touching the <u>right trackpad</u> moves the <u>right stick</u> in that direction, deflecting more the further from the center it's touched.</li>
+          <li>Touching the <u>right trackpad</u> simultaneously activates the gyroscope, which emulates a mouse.</li>
+          <li>The <u>face buttons</u> act like a second 4-way direction pad (<u>A</u>/<u>B</u>/<u>X</u>/<u>Y</u>).</li>
+          <!-- TODO: triggers mapped to analog throttles, kinda; grips mapped to bumpers; back is tab -->
+        </ul>
+        <p>It is intended for a future version of these bindings to be playble with just the mouse and keyboard or with an actual Xbox 360 controller.<p>
+      </section>
+
+      <section id="basic-flight">
+        <div class="page-header">
+          <h1>Basic Flight</h1>
+        </div>
+        <p class="lead">All <a href="https://en.wikipedia.org/wiki/6DOF">six degrees of freedom</a> and all ship functions are accessible from the controller.</p>
+        <p><strong>Orientation:</strong> The <u>left stick</u> (<u>analog joystick</u>) controls <em>pitch</em> (tilt forward/backward) and <em>roll</em> (tilt left/right).  The <u>grip paddles</u> control <em>yaw</em> (turn left/right).</p>
+        <p><strong>Position:</strong> The <u>right stick</u> (<u>right trackpad</u>) controls <em>heave</em> (vertical thrust) and <em>sway</em> (lateral thrust).  The <u>triggers</u> control <em>surge</em> (longitudinal thrust), the main engine's throttle, and the booster.  As analog devices, each trigger commands thrust proportional to the degree it's depressed.  The <u>right trigger</u> controls forward thrust; the <u>left trigger</u>, backward.  When a trigger is pulled to the stop but not clicked (a soft pull), it will increase (right trigger) or decrease (left trigger) the throttle for as long as the trigger is held.  Soft pull <u>both triggers together</u> to zero the throttle.  Double soft pull the <u>right trigger</u> to boost.</p>
+        <p>The <u>direction pad</u> (<u>Up</u>/<u>Down</u>/<u>Left</u>/<u>Right</u>) controls the power distributor.</p>
+        <p>The <u>left stick click</u> targets objects in front of the ship.</p>
+        <p>The <u>shoulder buttons</u> handle fire controls corresponding to their position in the cockpit HUD.  The <u>right shoulder button</u> is primary fire; the <u>left shoulder button</u>, secondary.</p>
+        <p>The <u>face buttons</u> (<u>A</u>/<u>B</u>/<u>X</u>/<u>Y</u>), the <u>Back</u> button, and the <u>right stick click</u> modify the behavior of the other controls:</p>
+        <ul class="cardinal">
+          <li><u>A</u> button combos trigger ship utility modules, e.g., press <u>A</u> plus <u>Left</u> to use a heat sink.</li>
+          <li><u>B</u> button combos activate the user interface, e.g., press <u>B</u> plus <u>Up</u> to access the comms panel.</li>
+          <li><u>X</u> button combos control weapon systems, e.g., press <u>X</u> plus <u>Right</u> to toggle silent running.</li>
+          <li><u>Y</u> button combos manage targeting, e.g., press <u>Y</u> plus <u>Left</u> to select the previous target.</li>
+          <li><u>Right stick click</u> combos access wing (team) functions, e.g., press the <u>right stick</u> plus <u>Left</u> to select the first wingmate.</li>
+          <li><u>Back</u> button combos access utility functions, e.g., press <u>Back</u> plus <u>Right</u> to open the galaxy map.</li>
+        </ul>
+        <p>Refer to the <a href="https://docs.google.com/spreadsheets/d/1Kq_-igWF8gBGCXUd-xO4WzAUgmmJgPT9XFkpKyXXNZw/" target="_blank">reference card</a> for a complete list of button combinations.</p>
+      </section>
+
+      <section id="advanced-flight">
+        <div class="page-header">
+          <h1>Advanced Flight</h1>
+        </div>
+        <p class="lead">Use the gyroscope for very fine control over ship attitude.  This is specifically intended for use with <em>flight assist off</em>.  Distributor macros are available in an action layer.</p>
+        <p>Toggle flight assist by pressing both <u>grip paddles</u> together.  Touch the <u>right trackpad</u> to activate the gyroscope, which controls <em>pitch</em> and <em>yaw</em> via mouse emulation.  The in-game bindings enable relative mouse movement with the maximum possible decay rate, so use the <u>left stick</u> and <u>grip paddles</u> for gross attitude control with <strong>flight assist on</strong> or in supercruise.  Toggle rotational correction by pressing <u>A</u> plus both <u>grip paddles</u>.</p>
+        <p>Clicking and holding the <u>right trackpad</u> activates mouselook using the gyroscope.</p>
+        <p>Press and hold the <u>Back</u> button for a little more than three (3) seconds to toggle the <strong>Macros</strong> action layer.  You will hear a beep and feel the controller vibrate when the action layer is activated or deactivated.  (The Steam overlay will not always show visual confirmation of the change due to a bug.)  When the action layer is active, use the following key combinations to set the power distributor to one of four presets:</p>
+        <ul class="cardinal">
+          <li>Hold <u>Left</u>, then press <u>Left</u> to set the distributor to 4-2-0.</li>
+          <li>Hold <u>Up</u>, then press <u>Up</u> to set the distributor to 2-4-0.</li>
+          <li>Hold <u>Right</u>, then press <u>Right</u> to set the distributor to 0-2-4.</li>
+          <li>Hold <u>Down</u> to set the distributor to 0-3-3.</li>
+        </ul>
+      </section>
+
+      <section id="user-interfaces">
+        <div class="page-header">
+          <h1>User Interfaces</h1>
+        </div>
+        <p>Navigate all menus using the <u>direction pad</u>.  Some interfaces can be navigated using the <u>left stick</u> or gyroscope (mouse).  Select menu items with the <u>A</u> button.  Switch tabs using the <u>shoulder buttons</u>.  Exit menus with the <u>B</u> button.  Hold the <u>Start</u> button for a little more than three (3) seconds to send the <u>Escape</u> key; depending on the context, this exits menus or pauses the game.</p>
+        <p>Double click the <u>A</u> button for quick access to in-game chat.  In chat, press the <u>Back</u> button plus the <u>left or right grip paddle</u> to change channels—local, system, squadron, etc.</p>
+        <p>Press the <u>Start</u> button to display a virtual keyboard.  Use the <u>touchpads</u> to select symbols on the keyboard, and click the corresponding touchpad to type the selected symbol.  Exit the virtual keyboard by pressing the <u>B</u> button or clicking <u>Done</u> with a touchpad.</p>
+        <p>Press <u>A</u> plus the <u>left stick</u> to paste text from the clipboard.  This can be used to paste canned responses into the text chat or destinations into the galaxy map search box (e.g., when using the <a href="https://github.com/CMDR-Kiel42/EDMC_SpanshRouter" target="_blank">SpanshRouter plugin for EDMC</a>).  Note that this emulates <u>right control</u> plus <u>v</u> in case you have <a href="https://www.mavjs.org/post/swap-ctrl-and-capslock-on-windows/" target="_blank">swapped <u>left control</u> and <u>caps lock</u> via the Windows scancode map</a>.</p>
+      </section>
+
+      <section id="camera-controls">
+        <div class="page-header">
+          <h1>Camera Controls</h1>
+        </div>
+        <p class="lead">Camera controls are derived from the basic flight and UI controls, with several notable variations.</p>
+        <p><strong>In the galaxy and system map views,</strong> pan the camera horizontally with the <u>left stick</u> and vertically with the <u>grip paddles</u>.  The <u>right stick</u> controls the camera's pitch and yaw.  The <u>right trigger</u> zooms in, and the <u>left trigger</u> zooms out.</p>
+        <p><strong>The external camera</strong>, activated by pressing <u>Back</u> plus the <u>right grip paddle</u>, uses the map view controls plus the gyroscope (mouse) in certain contexts.  In other contexts, flight, driving, or on-foot controls remain active, with the external camera remaining in a relatively fixed position.</p>
+        <p><strong>The store camera,</strong> used by Holo-Me, Livery, and Fleet Carrier Administration, runs along a fixed course controlled by the <u>left stick</u>.</p>
+        <p><strong>In the Full Spectrum System Scanner (FSS),</strong> change frequencies using the <u>left stick</u> or the <u>direction pad</u>.  As with the galaxy/system map view, use the <u>right stick</u> and triggers to control the camera's pitch, yaw, and zoom.  The gyroscope can also be used to control the camera's pitch.  Hold <u>left shoulder button</u> to honk (pulse the discovery scanner).  Target a signal source by zooming in and pressing the <u>Y</u> button.</p>
+        <!-- <p><strong>In the Detailed Surface Scanner (DSS), formerly known as a Surface Area Analyzier (SAA),</strong> TODO FIXME put camera controls on the right stick, same as everything else?</p> -->
+        <p>In all cases, refer to on-screen help for additional controls.</p>
+      </section>
+
+      <section id="multicrew">
+        <div class="page-header">
+          <h1>Multicrew</h1>
+        </div>
+        <p>The idle/gunner role changes the ship's controls as follows:</p>
+        <ul class="cardinal">
+          <li>Some controls and subsystems are not available to crew members, e.g., flight controls.</li>
+          <li>Press <u>Down</u> to switch cockpit UI (radar display area) modes.</li>
+          <li>Use the triggers to activate the primary (<u>right trigger</u>) and secondary utilities (<u>left trigger</u>).</li>
+          <li><strong>Gunner role only:</strong> Press the <u>A</u> button to switch turret modes.</li>
+        </ul>
+        <p>The ship-launched fighter uses controls similar to that of the ship as described above.</p>
+      </section>
+
+      <section id="driving">
+        <!-- <div class="page-header"> -->
+        <!--   <h1>Driving</h1> -->
+        <!-- </div> -->
+        <!-- <p>TODO</p> -->
+      </section>
+
+      <section id="on-foot">
+        <!-- <div class="page-header"> -->
+        <!--   <h1>On Foot</h1> -->
+        <!-- </div> -->
+        <!-- <p>TODO</p> -->
+      </section>
+
+      <section id="vr">
+        <!-- <div class="page-header"> -->
+        <!--   <h1>Virtual Reality</h1> -->
+        <!-- </div> -->
+        <!-- <p>TODO</p> -->
+      </section>
+    </div>
+  </div>
+</div>
