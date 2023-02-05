@@ -522,6 +522,12 @@
 		</Primary>
 		<Secondary Device="{NoDevice}" Key="" />
 	</FireChaffLauncher>
+	<TriggerFieldNeutraliser>
+		<Primary Device="28DE11FF" Key="GamePad_DPadUp">
+			<Modifier Device="28DE11FF" Key="GamePad_FaceDown" />
+		</Primary>
+		<Secondary Device="{NoDevice}" Key="" />
+	</TriggerFieldNeutraliser>
 	<ChargeECM>
 		<Primary Device="28DE11FF" Key="GamePad_DPadUp">
 			<Modifier Device="28DE11FF" Key="GamePad_FaceDown" />
