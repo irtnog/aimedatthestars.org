@@ -1,14 +1,15 @@
 "controller_mappings"
 {
 	"version"		"3"
-	"revision"		"359"
-	"title"		"Big Angular Flight Picture Mode"
-	"description"		"Mr. Angular's Steam Controller bindings for Elite: Dangerous, modified to support FA-off and Odyssey. More info at AimedAtTheStars.org/bafpm. O7"
+	"revision"		"412"
+	"title"		"Big Angular Flight Picture Mode 2.0"
+	"description"		"A modified version of Mr. Angular Velocity's Steam Controller bindings for Elite: Dangerous that better supports FA-off and Odyssey. Instructions and game bindings at https://AimedAtTheStars.org/bafpm."
 	"creator"		"76561197982337851"
 	"progenitor"		""
-	"url"		""
-	"export_type"		"unknown"
+	"url"		"workshop://2927508253"
+	"export_type"		"community"
 	"controller_type"		"controller_steamcontroller_gordon"
+	"controller_caps"		"2179063"
 	"major_revision"		"0"
 	"minor_revision"		"0"
 	"Timestamp"		"0"
@@ -34,10 +35,11 @@
 	{
 		"id"		"0"
 		"mode"		"four_buttons"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
-			"button_A"
+			"button_a"
 			{
 				"activators"
 				{
@@ -45,7 +47,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button A, Modules"
+							"binding"		"xinput_button A, Modules, , "
 						}
 						"settings"
 						{
@@ -56,7 +58,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RETURN, Quick Comms"
+							"binding"		"key_press RETURN, Quick Comms, , "
 						}
 						"settings"
 						{
@@ -68,7 +70,7 @@
 				{
 				}
 			}
-			"button_B"
+			"button_b"
 			{
 				"activators"
 				{
@@ -76,7 +78,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button B, Panels"
+							"binding"		"xinput_button B, Panels, , "
 						}
 						"settings"
 						{
@@ -87,7 +89,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press R, 75% Ahead"
+							"binding"		"key_press R, 75% Ahead, , "
 						}
 						"settings"
 						{
@@ -99,7 +101,7 @@
 				{
 				}
 			}
-			"button_X"
+			"button_x"
 			{
 				"activators"
 				{
@@ -107,7 +109,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button X, Weapons"
+							"binding"		"xinput_button X, Weapons, , "
 						}
 						"settings"
 						{
@@ -118,7 +120,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press N, Night Vision"
+							"binding"		"key_press N, Night Vision, , "
 						}
 						"settings"
 						{
@@ -130,7 +132,7 @@
 				{
 				}
 			}
-			"button_Y"
+			"button_y"
 			{
 				"activators"
 				{
@@ -138,7 +140,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button Y, Targeting"
+							"binding"		"xinput_button Y, Targeting, , "
 						}
 						"settings"
 						{
@@ -149,7 +151,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press H, Target Highest Threat"
+							"binding"		"key_press H, Target Highest Threat, , "
 						}
 						"settings"
 						{
@@ -167,6 +169,7 @@
 	{
 		"id"		"1"
 		"mode"		"dpad"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -178,7 +181,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_UP, Engines"
+							"binding"		"xinput_button DPAD_UP, Engines, , "
 						}
 						"settings"
 						{
@@ -198,7 +201,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_DOWN, Balanced"
+							"binding"		"xinput_button DPAD_DOWN, Balanced, , "
 						}
 						"settings"
 						{
@@ -218,7 +221,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_RIGHT, Weapons"
+							"binding"		"xinput_button DPAD_RIGHT, Weapons, , "
 						}
 						"settings"
 						{
@@ -238,7 +241,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_LEFT, System"
+							"binding"		"xinput_button DPAD_LEFT, System, , "
 						}
 						"settings"
 						{
@@ -263,6 +266,7 @@
 	{
 		"id"		"2"
 		"mode"		"joystick_camera"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -274,7 +278,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_RIGHT"
+							"binding"		"xinput_button JOYSTICK_RIGHT, , "
 						}
 						"settings"
 						{
@@ -298,6 +302,7 @@
 	{
 		"id"		"3"
 		"mode"		"joystick_move"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -309,7 +314,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_LEFT, Target Ahead"
+							"binding"		"xinput_button JOYSTICK_LEFT, Target Ahead, , "
 						}
 						"settings"
 						{
@@ -320,7 +325,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press INSERT, Target Next System"
+							"binding"		"key_press INSERT, Target Next System, , "
 						}
 						"settings"
 						{
@@ -331,8 +336,8 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_CONTROL, Paste Clipboard"
-							"binding"		"key_press V, Paste Clipboard"
+							"binding"		"key_press RIGHT_CONTROL, Paste Clipboard, , "
+							"binding"		"key_press V, Paste Clipboard, , "
 						}
 						"settings"
 						{
@@ -350,6 +355,7 @@
 	{
 		"id"		"4"
 		"mode"		"trigger"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -361,7 +367,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press LEFT_CONTROL, 50% Reverse"
+							"binding"		"key_press LEFT_CONTROL, 50% Reverse, , "
 						}
 						"settings"
 						{
@@ -381,7 +387,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press LEFT_ALT, Thrust Back"
+							"binding"		"key_press LEFT_ALT, Thrust Back, , "
 						}
 						"settings"
 						{
@@ -393,7 +399,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press Z, 25% Ahead"
+							"binding"		"key_press Z, 25% Ahead, , "
 						}
 						"settings"
 						{
@@ -418,6 +424,7 @@
 	{
 		"id"		"5"
 		"mode"		"trigger"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -429,7 +436,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_CONTROL, 50% Ahead"
+							"binding"		"key_press RIGHT_CONTROL, 50% Ahead, , "
 						}
 						"settings"
 						{
@@ -449,7 +456,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_ALT, Thrust Forward"
+							"binding"		"key_press RIGHT_ALT, Thrust Forward, , "
 						}
 						"settings"
 						{
@@ -461,7 +468,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press HOME, Engine Boost"
+							"binding"		"key_press HOME, Engine Boost, , "
 						}
 						"settings"
 						{
@@ -488,6 +495,7 @@
 	{
 		"id"		"6"
 		"mode"		"joystick_move"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -499,7 +507,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_RIGHT, Free Look/Utility Wheel"
+							"binding"		"xinput_button JOYSTICK_RIGHT, Free Look/Utility Wheel, , "
 						}
 						"settings"
 						{
@@ -525,6 +533,7 @@
 	{
 		"id"		"7"
 		"mode"		"joystick_camera"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -538,6 +547,7 @@
 	{
 		"id"		"8"
 		"mode"		"absolute_mouse"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -554,6 +564,7 @@
 	{
 		"id"		"9"
 		"mode"		"mouse_joystick"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -567,6 +578,7 @@
 	{
 		"id"		"10"
 		"mode"		"mouse_joystick"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -576,6 +588,7 @@
 	{
 		"id"		"11"
 		"mode"		"absolute_mouse"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -587,7 +600,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_RIGHT"
+							"binding"		"xinput_button JOYSTICK_RIGHT, , "
 						}
 						"settings"
 						{
@@ -609,6 +622,7 @@
 	{
 		"id"		"12"
 		"mode"		"mouse_joystick"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -618,6 +632,7 @@
 	{
 		"id"		"13"
 		"mode"		"joystick_move"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -633,6 +648,7 @@
 	{
 		"id"		"14"
 		"mode"		"dpad"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -644,7 +660,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_UP"
+							"binding"		"xinput_button DPAD_UP, , "
 						}
 						"settings"
 						{
@@ -664,7 +680,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_DOWN"
+							"binding"		"xinput_button DPAD_DOWN, , "
 						}
 						"settings"
 						{
@@ -684,7 +700,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_RIGHT"
+							"binding"		"xinput_button DPAD_RIGHT, , "
 						}
 						"settings"
 						{
@@ -704,7 +720,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_LEFT"
+							"binding"		"xinput_button DPAD_LEFT, , "
 						}
 						"settings"
 						{
@@ -724,7 +740,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press LEFT_ALT"
+							"binding"		"key_press LEFT_ALT, , "
 						}
 						"settings"
 						{
@@ -748,6 +764,7 @@
 	{
 		"id"		"15"
 		"mode"		"joystick_move"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -759,7 +776,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_ALT"
+							"binding"		"key_press RIGHT_ALT, , "
 						}
 						"settings"
 						{
@@ -770,7 +787,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press NUM_LOCK"
+							"binding"		"key_press NUM_LOCK, , "
 						}
 						"settings"
 						{
@@ -788,6 +805,7 @@
 	{
 		"id"		"16"
 		"mode"		"joystick_move"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -801,6 +819,7 @@
 	{
 		"id"		"17"
 		"mode"		"joystick_move"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -812,7 +831,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_RIGHT"
+							"binding"		"xinput_button JOYSTICK_RIGHT, , "
 						}
 						"settings"
 						{
@@ -836,6 +855,7 @@
 	{
 		"id"		"18"
 		"mode"		"dpad"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -849,6 +869,7 @@
 	{
 		"id"		"19"
 		"mode"		"touch_menu"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -860,7 +881,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"controller_action SHOW_KEYBOARD, Keyboard, ghost_070_setting_0100.png #232323 #E4E4E4"
+							"binding"		"controller_action SHOW_KEYBOARD, Keyboard, ghost_070_setting_0100.png, #232323 #E4E4E4"
 						}
 					}
 				}
@@ -876,7 +897,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RETURN, Quick Chat, ghost_110_social_0150.png #232323 #E4E4E4"
+							"binding"		"key_press RETURN, Quick Chat, ghost_110_social_0150.png, #232323 #E4E4E4"
 						}
 					}
 				}
@@ -892,14 +913,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press VOLUME_DOWN, Volume Down, ghost_090_media_0150.png #232323 #E4E4E4"
+							"binding"		"key_press VOLUME_DOWN, Volume Down, ghost_090_media_0150.png, #232323 #E4E4E4"
 						}
 					}
 					"Long_Press"
 					{
 						"bindings"
 						{
-							"binding"		"key_press VOLUME_DOWN"
+							"binding"		"key_press VOLUME_DOWN, , "
 						}
 						"settings"
 						{
@@ -919,14 +940,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_ALT, Microphone Mute, ghost_090_media_0120.png #232323 #E4E4E4"
+							"binding"		"key_press RIGHT_ALT, Microphone Mute, ghost_090_media_0120.png, #232323 #E4E4E4"
 						}
 					}
 					"Full_Press"
 					{
 						"bindings"
 						{
-							"binding"		"key_press NUM_LOCK, Microphone Mute, ghost_090_media_0120.png #232323 #E4E4E4"
+							"binding"		"key_press NUM_LOCK, Microphone Mute, ghost_090_media_0120.png, #232323 #E4E4E4"
 						}
 					}
 				}
@@ -942,14 +963,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press VOLUME_UP, Volume Up, ghost_090_media_0160.png #232323 #E4E4E4"
+							"binding"		"key_press VOLUME_UP, Volume Up, ghost_090_media_0160.png, #232323 #E4E4E4"
 						}
 					}
 					"Long_Press"
 					{
 						"bindings"
 						{
-							"binding"		"key_press VOLUME_UP"
+							"binding"		"key_press VOLUME_UP, , "
 						}
 						"settings"
 						{
@@ -969,14 +990,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press LEFT_ALT, Desktop, ghost_070_setting_0010.png #232323 #E4E4E4"
+							"binding"		"key_press LEFT_ALT, Desktop, ghost_070_setting_0010.png, #232323 #E4E4E4"
 						}
 					}
 					"Full_Press"
 					{
 						"bindings"
 						{
-							"binding"		"key_press TAB, Desktop, ghost_070_setting_0010.png #232323 #E4E4E4"
+							"binding"		"key_press TAB, Desktop, ghost_070_setting_0010.png, #232323 #E4E4E4"
 						}
 					}
 				}
@@ -992,14 +1013,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_ALT, Save Replay, ghost_050_menu_0130.png #232323 #E4E4E4"
+							"binding"		"key_press RIGHT_ALT, Save Replay, ghost_050_menu_0130.png, #232323 #E4E4E4"
 						}
 					}
 					"Full_Press"
 					{
 						"bindings"
 						{
-							"binding"		"key_press F11, Save Replay, ghost_050_menu_0130.png #232323 #E4E4E4"
+							"binding"		"key_press F11, Save Replay, ghost_050_menu_0130.png, #232323 #E4E4E4"
 						}
 					}
 				}
@@ -1010,6 +1031,7 @@
 		}
 		"settings"
 		{
+			"mouse_smoothing"		"0"
 			"touch_menu_position_x"		"12"
 		}
 	}
@@ -1017,6 +1039,7 @@
 	{
 		"id"		"20"
 		"mode"		"absolute_mouse"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1028,7 +1051,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button JOYSTICK_RIGHT"
+							"binding"		"xinput_button JOYSTICK_RIGHT, , "
 						}
 						"settings"
 						{
@@ -1050,6 +1073,7 @@
 	{
 		"id"		"22"
 		"mode"		"four_buttons"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1059,6 +1083,7 @@
 	{
 		"id"		"23"
 		"mode"		"absolute_mouse"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1068,6 +1093,7 @@
 	{
 		"id"		"24"
 		"mode"		"radial_menu"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1079,7 +1105,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_UP"
+							"binding"		"xinput_button DPAD_UP, , "
 						}
 						"settings"
 						{
@@ -1097,6 +1123,7 @@
 	{
 		"id"		"25"
 		"mode"		"radial_menu"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1106,6 +1133,7 @@
 	{
 		"id"		"26"
 		"mode"		"absolute_mouse"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1119,6 +1147,7 @@
 	{
 		"id"		"27"
 		"mode"		"trigger"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1130,14 +1159,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_CONTROL"
+							"binding"		"key_press RIGHT_CONTROL, , "
 						}
 					}
 					"Full_Press"
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_ALT"
+							"binding"		"key_press RIGHT_ALT, , "
 						}
 					}
 				}
@@ -1155,10 +1184,11 @@
 	{
 		"id"		"57"
 		"mode"		"four_buttons"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
-			"button_A"
+			"button_a"
 			{
 				"activators"
 				{
@@ -1166,8 +1196,8 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_CONTROL"
-							"binding"		"key_press V"
+							"binding"		"key_press RIGHT_CONTROL, , "
+							"binding"		"key_press V, , "
 						}
 					}
 				}
@@ -1175,7 +1205,7 @@
 				{
 				}
 			}
-			"button_B"
+			"button_b"
 			{
 				"activators"
 				{
@@ -1183,7 +1213,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button B"
+							"binding"		"xinput_button B, , "
 						}
 					}
 				}
@@ -1191,7 +1221,7 @@
 				{
 				}
 			}
-			"button_X"
+			"button_x"
 			{
 				"activators"
 				{
@@ -1199,7 +1229,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button X"
+							"binding"		"xinput_button X, , "
 						}
 					}
 				}
@@ -1207,7 +1237,7 @@
 				{
 				}
 			}
-			"button_Y"
+			"button_y"
 			{
 				"activators"
 				{
@@ -1215,7 +1245,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button Y"
+							"binding"		"xinput_button Y, , "
 						}
 					}
 				}
@@ -1229,6 +1259,7 @@
 	{
 		"id"		"90"
 		"mode"		"trigger"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1240,14 +1271,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press LEFT_CONTROL"
+							"binding"		"key_press LEFT_CONTROL, , "
 						}
 					}
 					"Full_Press"
 					{
 						"bindings"
 						{
-							"binding"		"key_press LEFT_ALT"
+							"binding"		"key_press LEFT_ALT, , "
 						}
 					}
 				}
@@ -1265,6 +1296,7 @@
 	{
 		"id"		"92"
 		"mode"		"scrollwheel"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1276,7 +1308,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"mouse_wheel SCROLL_UP, Power Systems"
+							"binding"		"mouse_wheel SCROLL_UP, Power Systems, , "
 						}
 					}
 				}
@@ -1292,7 +1324,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"mouse_wheel SCROLL_DOWN, Modes"
+							"binding"		"mouse_wheel SCROLL_DOWN, Modes, , "
 						}
 					}
 				}
@@ -1313,6 +1345,7 @@
 	{
 		"id"		"93"
 		"mode"		"touch_menu"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1324,14 +1357,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press E"
-							"binding"		"key_press SPACE"
-							"binding"		"key_press S"
-							"binding"		"key_press U"
-							"binding"		"key_press B"
-							"binding"		"key_press M"
-							"binding"		"key_press I"
-							"binding"		"key_press T"
+							"binding"		"key_press E, , "
+							"binding"		"key_press SPACE, , "
+							"binding"		"key_press S, , "
+							"binding"		"key_press U, , "
+							"binding"		"key_press B, , "
+							"binding"		"key_press M, , "
+							"binding"		"key_press I, , "
+							"binding"		"key_press T, , "
 						}
 						"settings"
 						{
@@ -1342,11 +1375,11 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press SPACE"
-							"binding"		"key_press W"
-							"binding"		"key_press I"
-							"binding"		"key_press L"
-							"binding"		"key_press L"
+							"binding"		"key_press SPACE, , "
+							"binding"		"key_press W, , "
+							"binding"		"key_press I, , "
+							"binding"		"key_press L, , "
+							"binding"		"key_press L, , "
 						}
 						"settings"
 						{
@@ -1357,11 +1390,11 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press SPACE"
-							"binding"		"key_press S"
-							"binding"		"key_press C"
-							"binding"		"key_press A"
-							"binding"		"key_press N"
+							"binding"		"key_press SPACE, , "
+							"binding"		"key_press S, , "
+							"binding"		"key_press C, , "
+							"binding"		"key_press A, , "
+							"binding"		"key_press N, , "
 						}
 						"settings"
 						{
@@ -1372,11 +1405,11 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press SPACE"
-							"binding"		"key_press S"
-							"binding"		"key_press C"
-							"binding"		"key_press A"
-							"binding"		"key_press N"
+							"binding"		"key_press SPACE, , "
+							"binding"		"key_press S, , "
+							"binding"		"key_press C, , "
+							"binding"		"key_press A, , "
+							"binding"		"key_press N, , "
 						}
 						"settings"
 						{
@@ -1391,6 +1424,7 @@
 		}
 		"settings"
 		{
+			"mouse_smoothing"		"0"
 			"touch_menu_button_count"		"16"
 		}
 	}
@@ -1398,6 +1432,7 @@
 	{
 		"id"		"94"
 		"mode"		"dpad"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -1409,632 +1444,9 @@
 	}
 	"group"
 	{
-		"id"		"95"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"96"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"97"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"98"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"99"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"100"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"101"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"115"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"116"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"117"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"118"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"119"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"120"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"121"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"122"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"123"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"124"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"125"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"139"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"140"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"141"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"142"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"156"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"157"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"171"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"172"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"173"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"174"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"175"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"176"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"177"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"178"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"179"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"180"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"181"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"182"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"183"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"184"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"185"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"186"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"187"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"188"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"189"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"190"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"191"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"192"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"193"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"194"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"195"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"196"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"197"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"198"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"199"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"200"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"201"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"202"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"203"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"204"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"205"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"206"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"207"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"208"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"209"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"210"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"211"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"212"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"213"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"214"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"215"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"216"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"217"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"218"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"219"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"233"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"234"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"235"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"236"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"237"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"238"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"239"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"240"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"241"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"242"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"243"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"244"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"245"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"246"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"260"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"261"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"262"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"263"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"265"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"266"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"267"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"268"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"269"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"270"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"271"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"272"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"274"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"276"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"277"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"278"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"279"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
 		"id"		"281"
 		"mode"		"absolute_mouse"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2048,6 +1460,7 @@
 	{
 		"id"		"282"
 		"mode"		"dpad"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2062,6 +1475,7 @@
 	{
 		"id"		"283"
 		"mode"		"dpad"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2073,14 +1487,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_UP, Engines"
+							"binding"		"xinput_button DPAD_UP, Engines, , "
 						}
 					}
 					"Long_Press"
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_DOWN"
+							"binding"		"xinput_button DPAD_DOWN, , "
 						}
 						"settings"
 						{
@@ -2091,7 +1505,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_UP"
+							"binding"		"xinput_button DPAD_UP, , "
 						}
 						"settings"
 						{
@@ -2103,7 +1517,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_LEFT"
+							"binding"		"xinput_button DPAD_LEFT, , "
 						}
 						"settings"
 						{
@@ -2115,7 +1529,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press UP_ARROW"
+							"binding"		"key_press UP_ARROW, , "
 						}
 						"settings"
 						{
@@ -2136,14 +1550,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_DOWN, Balanced"
+							"binding"		"xinput_button DPAD_DOWN, Balanced, , "
 						}
 					}
 					"Long_Press"
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_DOWN"
+							"binding"		"xinput_button DPAD_DOWN, , "
 						}
 						"settings"
 						{
@@ -2154,7 +1568,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_RIGHT"
+							"binding"		"xinput_button DPAD_RIGHT, , "
 						}
 						"settings"
 						{
@@ -2166,7 +1580,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_ARROW"
+							"binding"		"key_press RIGHT_ARROW, , "
 						}
 						"settings"
 						{
@@ -2178,7 +1592,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_UP"
+							"binding"		"xinput_button DPAD_UP, , "
 						}
 						"settings"
 						{
@@ -2190,7 +1604,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press UP_ARROW"
+							"binding"		"key_press UP_ARROW, , "
 						}
 						"settings"
 						{
@@ -2211,14 +1625,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_RIGHT, Weapons"
+							"binding"		"xinput_button DPAD_RIGHT, Weapons, , "
 						}
 					}
 					"Long_Press"
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_DOWN"
+							"binding"		"xinput_button DPAD_DOWN, , "
 						}
 						"settings"
 						{
@@ -2229,7 +1643,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_RIGHT"
+							"binding"		"xinput_button DPAD_RIGHT, , "
 						}
 						"settings"
 						{
@@ -2241,7 +1655,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_UP"
+							"binding"		"xinput_button DPAD_UP, , "
 						}
 						"settings"
 						{
@@ -2253,7 +1667,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_ARROW"
+							"binding"		"key_press RIGHT_ARROW, , "
 						}
 						"settings"
 						{
@@ -2274,14 +1688,14 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_LEFT, System"
+							"binding"		"xinput_button DPAD_LEFT, System, , "
 						}
 					}
 					"Long_Press"
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_DOWN"
+							"binding"		"xinput_button DPAD_DOWN, , "
 						}
 						"settings"
 						{
@@ -2292,7 +1706,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_LEFT"
+							"binding"		"xinput_button DPAD_LEFT, , "
 						}
 						"settings"
 						{
@@ -2304,7 +1718,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button DPAD_UP"
+							"binding"		"xinput_button DPAD_UP, , "
 						}
 						"settings"
 						{
@@ -2316,7 +1730,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press LEFT_ARROW"
+							"binding"		"key_press LEFT_ARROW, , "
 						}
 						"settings"
 						{
@@ -2339,6 +1753,7 @@
 	{
 		"id"		"284"
 		"mode"		"four_buttons"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2352,6 +1767,7 @@
 	{
 		"id"		"285"
 		"mode"		"four_buttons"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2365,6 +1781,7 @@
 	{
 		"id"		"286"
 		"mode"		"joystick_move"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2378,6 +1795,7 @@
 	{
 		"id"		"287"
 		"mode"		"trigger"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2391,6 +1809,7 @@
 	{
 		"id"		"288"
 		"mode"		"trigger"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2404,6 +1823,7 @@
 	{
 		"id"		"289"
 		"mode"		"trigger"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2417,6 +1837,7 @@
 	{
 		"id"		"290"
 		"mode"		"trigger"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2430,6 +1851,7 @@
 	{
 		"id"		"291"
 		"mode"		"joystick_move"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2443,6 +1865,7 @@
 	{
 		"id"		"292"
 		"mode"		"joystick_move"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2454,272 +1877,9 @@
 	}
 	"group"
 	{
-		"id"		"293"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"294"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"295"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"296"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"297"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"298"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"299"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"300"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"301"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"302"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"303"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"304"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"305"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"306"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"307"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"308"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"309"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"310"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"311"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"312"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"313"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"314"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"315"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"316"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"317"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"318"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"319"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"320"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"321"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"322"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"323"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"324"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"325"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"326"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"327"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"328"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"329"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"330"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"331"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"332"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"333"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"334"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"335"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
-		"id"		"336"
-		"mode"		"disabled"
-		"description"		""
-	}
-	"group"
-	{
 		"id"		"21"
 		"mode"		"switches"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2731,7 +1891,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press ESCAPE, Menu"
+							"binding"		"key_press ESCAPE, Menu, , "
 						}
 					}
 					"Long_Press"
@@ -2745,7 +1905,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"controller_action SHOW_KEYBOARD"
+							"binding"		"controller_action SHOW_KEYBOARD, , "
 						}
 					}
 				}
@@ -2761,7 +1921,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press TAB, Utilities"
+							"binding"		"key_press TAB, Utilities, , "
 						}
 						"settings"
 						{
@@ -2772,7 +1932,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"controller_action add_layer 2 1 1"
+							"binding"		"controller_action add_layer 2 1 1, , "
 						}
 						"settings"
 						{
@@ -2793,7 +1953,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press LEFT_SHIFT, Secondary Fire"
+							"binding"		"key_press LEFT_SHIFT, Secondary Fire, , "
 						}
 					}
 				}
@@ -2809,7 +1969,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_SHIFT, Primary Fire"
+							"binding"		"key_press RIGHT_SHIFT, Primary Fire, , "
 						}
 					}
 				}
@@ -2825,7 +1985,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button SHOULDER_LEFT, Yaw Left"
+							"binding"		"xinput_button SHOULDER_LEFT, Yaw Left, , "
 						}
 					}
 				}
@@ -2841,7 +2001,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"xinput_button SHOULDER_RIGHT, Yaw Right"
+							"binding"		"xinput_button SHOULDER_RIGHT, Yaw Right, , "
 						}
 					}
 				}
@@ -2889,7 +2049,7 @@
 				{
 				}
 			}
-			"button_A"
+			"button_a"
 			{
 				"activators"
 				{
@@ -2915,6 +2075,7 @@
 	{
 		"id"		"280"
 		"mode"		"switches"
+		"name"		""
 		"description"		""
 		"inputs"
 		{
@@ -2926,7 +2087,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press TAB, Utilities"
+							"binding"		"key_press TAB, Utilities, , "
 						}
 						"settings"
 						{
@@ -2937,7 +2098,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"controller_action remove_layer 2 1 1"
+							"binding"		"controller_action remove_layer 2 1 1, , "
 						}
 						"settings"
 						{
@@ -2950,17 +2111,58 @@
 				{
 				}
 			}
+			"left_bumper"
+			{
+				"activators"
+				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press LEFT_SHIFT, Secondary Fire, , "
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
+			"right_bumper"
+			{
+				"activators"
+				{
+					"Long_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press RIGHT_SHIFT, Primary Fire, , "
+						}
+						"settings"
+						{
+							"long_press_time"		"0"
+						}
+					}
+					"Long_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press LEFT_SHIFT, , "
+						}
+						"settings"
+						{
+							"long_press_time"		"1500"
+						}
+					}
+				}
+				"disabled_activators"
+				{
+				}
+			}
 		}
 		"settings"
 		{
 			"layer"		"1"
 		}
-	}
-	"group"
-	{
-		"id"		"337"
-		"mode"		"disabled"
-		"description"		""
 	}
 	"preset"
 	{
