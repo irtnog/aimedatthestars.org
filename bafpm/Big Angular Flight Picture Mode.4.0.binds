@@ -1532,6 +1532,10 @@
 		<Primary Device="28DE11FF" Key="GamePad_DPadRight" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</ExplorationSAAPreviousGenus>
+	<ExplorationSAAShowHelp>
+		<Primary Device="{NoDevice}" Key="" />
+		<Secondary Device="{NoDevice}" Key="" />
+	</ExplorationSAAShowHelp>
 	<SAAThirdPersonMouseXMode Value="Bindings_MouseYaw" />
 	<SAAThirdPersonMouseXDecay Value="1" />
 	<SAAThirdPersonMouseYMode Value="Bindings_MousePitch" />
