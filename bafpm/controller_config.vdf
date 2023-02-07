@@ -2122,7 +2122,34 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press LEFT_SHIFT, Secondary Fire, , "
+							"binding"		"key_press LEFT_SHIFT, Secondary Fire / Gatling Gauss, , "
+						}
+					}
+					"Double_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press RIGHT_SHIFT, , "
+						}
+						"settings"
+						{
+							"double_tap_time"		"535"
+							"haptic_intensity"		"0"
+						}
+					}
+					"Double_Press"
+					{
+						"bindings"
+						{
+							"binding"		"xinput_button X, , "
+							"binding"		"xinput_button SHOULDER_RIGHT, , "
+						}
+						"settings"
+						{
+							"hold_repeats"		"1"
+							"double_tap_time"		"500"
+							"repeat_rate"		"625"
+							"delay_start"		"625"
 						}
 					}
 				}
@@ -2158,7 +2185,7 @@
 					{
 						"bindings"
 						{
-							"binding"		"key_press LEFT_SHIFT, , "
+							"binding"		"key_press LEFT_SHIFT, , #232323 #E4E4E4"
 						}
 						"settings"
 						{
