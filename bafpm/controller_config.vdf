@@ -1533,8 +1533,9 @@
 						}
 						"settings"
 						{
+							"hold_repeats"		"1"
 							"long_press_time"		"900"
-							"haptic_intensity"		"3"
+							"haptic_intensity"		"0"
 						}
 					}
 				}
@@ -1671,8 +1672,9 @@
 						}
 						"settings"
 						{
+							"hold_repeats"		"1"
 							"long_press_time"		"900"
-							"haptic_intensity"		"3"
+							"haptic_intensity"		"0"
 						}
 					}
 				}
@@ -1734,8 +1736,9 @@
 						}
 						"settings"
 						{
+							"hold_repeats"		"1"
 							"long_press_time"		"900"
-							"haptic_intensity"		"3"
+							"haptic_intensity"		"0"
 						}
 					}
 				}
