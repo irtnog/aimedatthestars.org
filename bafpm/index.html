@@ -129,6 +129,35 @@ layout: default
         <p>The <strong>Macros</strong> action layer also defines two additional fire control modes.  Hold the <u>right shoulder button</u> to fire the primary and secondary weapon in tandem, with a 1125-ms delay between them.  This macro implements <a href="https://wiki.antixenoinitiative.com/staggering-gauss">staggered Guardian Gauss cannon fire</a> when engaging Thargoid interceptors and requires the active fire group be configured accordingly.  The macro's timing has been tested with <a href="https://wiki.antixenoinitiative.com/en/builds#alliance-chieftain-shieldless">the AXI meta (shieldless 2m2s) Chieftain</a>.  Different fitments may require modifications to the delay time to prevent heat from spiking over 20% with an active heat sink.</p>
         <p>Double click and hold the <u>left shoulder button</u> to fire the primary weapon while cycling fire groups every 625 ms.  This macro implements <a href="https://www.youtube.com/watch?v=WypK-856PiY">Gatling Gauss</a> for a four-Gauss-cannon configuration and requires fire groups configured accordingly, with one fire group for each installed Gauss cannon and with each fire group mapping the primary fire trigger to the current Gauss cannon being fired plus the next one in the series.  For three-Gauss-cannon configurations, increase the cycle time to 683 ms.  For Salvation-modified Guardian shard cannons, decrease the cycle time (to be determined).</p>
         <p>Use Steam's new controller layout interface to adjust these macros' timings.  To change the staggered fire delay, edit the controller layout, select the <strong>Macro</strong> action layer, and open the settings of <strong>RB</strong> command 3 (the second long press activator).  Increase or decrease the <strong>long press time</strong> as needed.  To change the Gatling Gauss cycle time, open the settings of <strong>LB</strong> command 3 (the second double press activator), and set both the <strong>repeat rate</strong> and the <strong>fire start delay</strong> to the new value.</p>
+        <div id="ExampleGaussFireGroups" class="carousel slide">
+          <ol class="corousel-indicators">
+            <li data-target="#ExampleGaussFireGroups" data-slide-to="0" class="active"></li>
+            <li data-target="#ExampleGaussFireGroups" data-slide-to="1"></li>
+            <li data-target="#ExampleGaussFireGroups" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="active item">
+              <img src="/assets/img/2m2s-meta-chief-fire-groups.png" alt="Staggered/Gatling Gauss fire groups for a 2m2s meta Chieftain" />
+              <div class="carousel-caption">
+                <h4>Staggered/Gatling Gauss fire groups for a 2m2s meta Chieftain</h4>
+              </div>
+            </div>
+            <div class="item">
+              <img src="/assets/img/4s-trainer-chief-fire-groups.png" alt="Staggered/Gatling Gauss fire groups for a 4s E-rated training Chieftain" />
+              <div class="carousel-caption">
+                <h4>Staggered/Gatling Gauss fire groups for a 4s E-rated training Chieftain</h4>
+              </div>
+            </div>
+            <div class="item">
+              <img src="/assets/img/1m2s-viper-mk4-fire-groups.png" alt="Staggered/Gatling Gauss fire groups for a 1m2s Viper Mk IV" />
+              <div class="carousel-caption">
+                <h4>Staggered/Gatling Gauss fire groups for a 1m2s Viper Mk IV</h4>
+              </div>
+            </div>
+          </div>
+          <a class="carousel-control left"  href="#ExampleGaussFireGroups" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#ExampleGaussFireGroups" data-slide="next">&rsaquo;</a>
+        </div>
       </section>
 
       <section id="user-interfaces">
