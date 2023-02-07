@@ -2134,15 +2134,24 @@
 			{
 				"activators"
 				{
+					"Full_Press"
+					{
+						"bindings"
+						{
+							"binding"		"key_press RIGHT_SHIFT, Primary Fire / Staggered Gauss, , "
+						}
+					}
 					"Long_Press"
 					{
 						"bindings"
 						{
-							"binding"		"key_press RIGHT_SHIFT, Primary Fire, , "
+							"binding"		"key_press RIGHT_SHIFT, , #232323 #E4E4E4"
 						}
 						"settings"
 						{
 							"long_press_time"		"0"
+							"repeat_rate"		"1000"
+							"haptic_intensity"		"3"
 						}
 					}
 					"Long_Press"
@@ -2153,7 +2162,8 @@
 						}
 						"settings"
 						{
-							"long_press_time"		"1500"
+							"long_press_time"		"1125"
+							"haptic_intensity"		"1"
 						}
 					}
 				}
