@@ -4,9 +4,8 @@ layout: default
 
 <header class="jumbotron masthead" id="overview">
   <div class="container">
-    <h1>Big Angular Flight Picture Mode</h1>
-
-    <p class="lead"><em>Big Angular Flight Picture Mode</em> is a modified version of <a href="https://www.reddit.com/r/EliteDangerous/comments/e618ml/steam_controller_elite_detailed_configuration_a/">Mr. Angular Velocity's Steam Controller bindings for Elite: Dangerous</a> that better supports FA-off and Odyssey.</p>
+    <h1>Big Angular Flight Picture Mode 2.5</h1>
+    <p class="lead"><em>Big Angular Flight Picture Mode 2.5</em> is an all-in-one Steam Controller layout for Elite: Dangerous Odyssey derived from <a href="https://www.reddit.com/r/EliteDangerous/comments/e618ml/steam_controller_elite_detailed_configuration_a/">Angular Flight Standard Pro</a>, Mr. Angular Velocity's Steam Controller bindings for Elite: Dangerous.  Access 6DOF with gyroscopic controls optimized for Flight Assist Off.  An optional macro action layer supports AX and PvP combat.  Instructions and game bindings at AimedAtTheStars.org/bafpm.</p>
   </div>
 </header>
 
@@ -44,18 +43,18 @@ layout: default
         </ol>
         <div class="row-fluid">
           <div class="span6">
-            <h2><a class="btn btn-large btn-primary" href="Big Angular Flight Picture Mode.4.0.binds">Download Odyssey (4.0) Bindings</a></h2>
+            <h2><a class="btn btn-large btn-primary" href="BAFPMv2.5.4.0.binds">Download Live (4.0) Bindings</a></h2>
             <p><strong>The complete set of controls:</strong> These bindings let you fly, drive, walk, and chat, all from the comfort of your couch.</p>
           </div>
           <div class="span6">
-            <h2><a class="btn btn-large btn-primary" href="Big Angular Flight Picture Mode.3.0.binds">Download Horizons (3.0) Bindings</a></h2>
-            <p>These bindings are compatible with Horizons and the base game.  They are identical to the Odyssey bindings except for the on-foot controls.</p>
+            <h2><a class="btn btn-large btn-primary" href="BAFPMv2.5.3.0.binds">Download Legacy (3.0) Bindings</a></h2>
+            <p>These bindings are compatible with the Legacy version of the game.  They are identical to the Live bindings except for new features such as the on-foot controls.</p>
           </div>
         </div>
         <ol start="2" class="ordinal">
           <li>Open <code>%LOCALAPPDATA%\Frontier Developments\Elite Dangerous\Options\Bindings</code> in Windows Explorer, and copy the bindings files into that folder.</li>
-          <li>Run Elite: Dangerous from Steam's <a href="https://help.steampowered.com/en/faqs/view/3725-76D3-3F31-FB63#how">Big Picture</a> mode and open the following Steam URI in Windows Explorer: <code>steam://controllerconfig/359320/2828850007</code></li>
-          <li>Select the <strong>Big Angular Flight Picture Mode</strong> controller configuration via the Steam overlay.</li>
+          <li>Run Elite: Dangerous from Steam's <a href="https://help.steampowered.com/en/faqs/view/3725-76D3-3F31-FB63#how">Big Picture</a> mode and open the following Steam URI in Windows Explorer: <code>steam://controllerconfig/359320/2929842583</code></li>
+          <li>Select the <strong>Big Angular Flight Picture Mode 2.5</strong> controller configuration via the Steam overlay.</li>
           <li>In the game's <strong>Controls</strong> menu, switch to the <strong>Big Angular Flight Picture Mode</strong> bindings.</li>
         </ol>
       </section>
@@ -68,6 +67,7 @@ layout: default
           <li>1.0: Initial release</li>
           <li>1.1: Map shutdown field neutralizer (same as ECM)</li>
           <li>2.0: Add staggered Gauss macro</li>
+          <li>2.5: Adjust staggered Gauss timing; add Gatling Gauss macro; fix distributor macros</li>
         </ul>
       </section>
 
@@ -204,7 +204,7 @@ layout: default
         <p>The on-screen keyboard only works when running Elite: Dangerous via Steam's Big Picture mode.  To start Big Picture mode, open the following Steam URI in Windows Explorer: <code>steam://open/bigpicture</code></p>
         <p>If the on-screen keyboard obscures a user interface element, press the <u>X</u> button to change the keyboard's location.</p>
         <p>The name of active action layer (<strong>Default</strong> or <strong>Macros</strong>) does not always appear when switching layers.  This is due to a bug in the Big Picture overlay.</p>
-        <p>On Linux, <code>Big Angular Flight Picture Mode</code> may not appear in the list of available in-game bindings.  Try editing the bindings files and replacing all occurrences of <code>28DE11FF</code> with <code>GamePand</code>, then restart the game.  If that does not work, try to determine the controller device identifier by choosing the default controller configuration, customizing a binding (e.g., use <u>A</u> to deploy heat sinks), and searching for that binding and the corresponding controller device identifier in <code>Custom.4.0.binds</code> (Odyssey) or <code>Custom.3.0.binds</code> (Horizons). H/T CMDR Nokiomanz</p>
+        <p>On Linux, <code>Big Angular Flight Picture Mode 2.5</code> may not appear in the list of available in-game bindings.  Try editing the bindings files and replacing all occurrences of <code>28DE11FF</code> with <code>GamePad</code>, then restart the game.  If that does not work, try to determine the controller device identifier by choosing the default controller configuration, customizing a binding (e.g., use <u>A</u> to deploy heat sinks), and searching for that binding and the corresponding controller device identifier in <code>Custom.4.0.binds</code> (Odyssey) or <code>Custom.3.0.binds</code> (Horizons). H/T CMDR Nokiomanz</p>
         <p>These bindings have been exclusively developed and playtested with Elite: Dangerous in <a href="https://customersupport.frontier.co.uk/hc/en-us/articles/4405965398418-Screen-and-Display-settings-options-">borderless window mode</a> or in Steam VR.  In other display modes, some button combos may inadvertenly send <a href="https://en.wikipedia.org/wiki/Alt-Tab">Alt-Tab</a> (switches between programs) or <a href="https://support.microsoft.com/en-us/topic/alt-enter-switches-between-window-and-full-screen-d1b23daa-644d-3fbf-2f5e-c2c779584db5">Alt-Enter</a> (switches between windowed and full-screen modes), causing the game to lose input focus.  Use the appropriate keyboard combo to return to the game.</p>
       </section>
     </div>
