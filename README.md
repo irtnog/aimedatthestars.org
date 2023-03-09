@@ -14,14 +14,4 @@ Content can be authored in [GitHub Flavored Markdown](https://help.github.com/ar
 
 ## Git Commit Messages
 
-Please follow [Angular Commit Message Conventions](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format).  The following scopes are currently in use:
-
-- **_config**
-- **_includes**
-- **_layouts**
-- **cname**
-- **gemfile**
-- **assets**
-- **bafpm**
-- **index**
-- **robots**
+Please follow [Angular Commit Message Conventions](https://github.com/angular/angular/blob/main/CONTRIBUTING.md#-commit-message-format).
