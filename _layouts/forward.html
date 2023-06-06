@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+  <head>
+    {%- assign time = 0 -%}
+    {%- assign targetname = page.target -%}
+    {%- if page.time -%}
+    {%-   assign time = page.time -%}
+    {%- endif -%}
+    {%- if page.targetname -%}
+    {%-   assign targetname = page.targetname -%}
+    {%- endif -%}
+    {%- capture title -%}Redirecting to {{ targetname }}{%- endcapture -%}
+    {%- if page.targettitle -%}
+    {%-   assign title = page.targettitle -%}
+    {%- endif -%}
+    {%- include head.html -%}
+    <meta http-equiv="refresh" content="{{ time }};url={{ page.target }}"/>
+    <link rel="canonical" href="{{ page.target }}"/>
+    <title>{{ title }}</title>
+  </head>
+  <body data-spy="scroll" data-targets=".bs-docs-sidebar">
+    {%- include header.html -%}
+    {%- if content -%}
+    {{    content }}
+    {%- else -%}
+    <header class="jumbotron masthead" id="overview">
+      <div class="container">
+        <h1>{{ title }}</h1>
+        <p class="lead"><em>This document has moved.</em>  Redirecting to <a href="{{ page.target }}">{{ targetname }}</a> in {{ time }} seconds.</p>
+      </div>
+    </header>
+    {%- endif %}
+    {%- include footer.html -%}
+  </body>
+</html>
