@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: "en" }}">
-  {%- include head.html -%}
+  <head>
+    {%- include head.html -%}
+  </head>
   <body data-spy="scroll" data-targets=".bs-docs-sidebar">
     {%- include header.html -%}
     {{ content }}
